@@ -1,0 +1,26 @@
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff52c6 0%,
+    #7a65fd 51%,
+    #7cc0ff 100%
+  );
+  background-size: 200% auto;
+  color: white;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: none;
+  border: #7a65fd 2px solid;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
